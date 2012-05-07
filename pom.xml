@@ -60,7 +60,7 @@
   <repositories>
     <repository>
       <id>gwu-maven-repo</id>
-      <url>http://raw.github.com/gwu/maven-repo/master/repo</url>
+      <url>https://raw.github.com/gwu/maven-repo/master/repo</url>
     </repository>
   </repositories>
 

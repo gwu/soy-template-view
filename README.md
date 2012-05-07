@@ -34,7 +34,7 @@ your dependencies section:
     <dependency>
       <groupId>com.garrettwu.spring</groupId>
       <artifactId>soy-template-view</artifactId>
-      <version>${version}</version>
+      <version>0.0.1</version>
       <scope>compile</scope>
     </dependency>
 
@@ -43,6 +43,6 @@ And add the following repositories declaration to your pom.xml:
     <repositories>
       <repository>
         <id>gwu-maven-repo</id>
-        <url>http://raw.github.com/gwu/maven-repo/master/repo</url>
+        <url>https://raw.github.com/gwu/maven-repo/master/repo</url>
       </repository>
     </repositories>
