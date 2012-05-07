@@ -32,6 +32,8 @@
 
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
+
+    <scm.connection>scm:git:ssh://git@github.com/gwu/soy-template-view.git</scm.connection>
   </properties>
 
   <dependencies>
@@ -61,4 +63,10 @@
       <url>http://raw.github.com/gwu/maven-repo/master/repo</url>
     </repository>
   </repositories>
+
+  <scm>
+    <connection>${scm.connection}</connection>
+    <url>${scm.connection}</url>
+    <developerConnection>${scm.connection}</developerConnection>
+  </scm>
 </project>
