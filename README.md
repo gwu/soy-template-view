@@ -4,7 +4,7 @@ soy-template-view
 This project contains an implementation of a Spring MVC View that
 renders Google Closure Templates (soy templates).
 
-== Usage
+## Usage
 
 In your Spring Java configuration, you may configure a ViewResolver:
 
@@ -26,7 +26,7 @@ In your Spring Java configuration, you may configure a ViewResolver:
       }
     }
 
-== Maven integration
+## Maven integration
 
 To depend on this project using maven, you can add the following to
 your dependencies section:
