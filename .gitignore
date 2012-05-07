@@ -1,0 +1,9 @@
+# Temp files from text editors.
+*~
+
+# IDE project files.
+.jde/
+prj.el
+
+# Build artifacts.
+target/
